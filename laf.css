@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #333232, #6f7626);
+    height: 100vh; 
+    margin: 0;
+
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+width: 700px;
+max-width: 90%;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.imagem img:hover {
+    transform: translate(-3px);
+    filter: brightness(1.1);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 5px solid #90b010;
+    transition: 0.3s;
+
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    transform: translateY(-3px);
+}
+
+nav {   /* barra de navegaçao */
+    background-color: #50511e;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+  }
+  
+  nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      font-weight: bold;
+  }
+
+  nav a:hover {  /* mudar a cor da barra quando passa o mouse */
+      background-color:  #6c6e39;
+      border-radius: 5px;
+  }
+
+  .card_inicio{
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-left: 5px solid #90b010;
+    transition: 0.3s;
+    width: 70%;
+    max-width: 600px;
+  }
+
+  .card_inicio:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    transform: translateY(-3px);
+}
+
+ul li {
+    margin-bottom: 35px;
+    line-height: 1.6;
+    color: aliceblue;
+}
+
+h2{
+    color:#f6ff00;
+}
+
+h1{
+    color:#f6ff00;
+}
